@@ -17,3 +17,22 @@ function closeNavbar() {
 
 document.getElementById("navbar-open").addEventListener("click", openNavbar);
 document.getElementById("navbar-close").addEventListener("click", closeNavbar);
+
+// /////// aos 
+
+
+ AOS.init();
+
+ /////////////// backtop 
+
+
+   window.addEventListener("scroll", function () {
+     var scroll = document.querySelector(".scrolltop");
+     scroll.classList.toggle("active", window.scrollY > 500);
+   });
+   function scrollToTop() {
+     window.scrollTo({
+       top: 0,
+       behavior: "smooth",
+     });
+   }
