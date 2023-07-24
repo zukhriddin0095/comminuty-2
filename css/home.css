@@ -720,7 +720,6 @@ input:focus {
 
 .energy {
   background: #f58a07;
-  margin-bottom: 100px;
 }
 .energy .energy__wrapper {
   display: flex;
@@ -778,4 +777,94 @@ input:focus {
   border: 1px solid #fff;
   background: transparent;
   color: #fff;
+}
+
+.dream .dream__wrapper {
+  display: flex;
+  gap: 110px;
+}
+@media (max-width: 1000px) {
+  .dream .dream__wrapper {
+    flex-direction: column;
+  }
+}
+.dream .dream__wrapper .dream__aside {
+  padding-top: 205px;
+  padding-bottom: 205px;
+}
+.dream .dream__wrapper .dream__aside h3 {
+  font-family: "Poppins";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -1.44px;
+}
+.dream .dream__wrapper .dream__aside p {
+  padding-top: 24px;
+  padding-bottom: 40px;
+  color: #5b5b5b;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+.dream .dream__wrapper .dream__aside .dream__profile {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.dream .dream__wrapper .dream__aside .dream__profile .dream__profile-intro h5 {
+  color: #063255;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.dream .dream__wrapper .dream__aside .dream__profile .dream__profile-intro h6 {
+  color: #f58a07;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.dream .dream__wrapper .dream__bside {
+  padding: 128px 0;
+}
+@media (max-width: 900px) {
+  .dream .dream__wrapper .dream__bside .dream__bside__img img {
+    width: 100%;
+  }
+}
+.dream .dream__wrapper .dream__bside .btn-modal {
+  position: relative;
+  top: -80px;
+  left: 80px;
+}
+
+.btn-primary {
+  padding: 17px;
+  background: transparent;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 101.8%; /* 18.324px */
+  text-transform: capitalize;
+}
+.btn-primary::before {
+  padding: 17px;
+  margin-right: 34px;
+  content: "▶";
+  color: #f58a07;
+  border-radius: 30px;
+  background: #fff;
+}
+.btn-primary:hover {
+  background: transparent;
+  border: none;
 }

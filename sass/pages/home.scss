@@ -1,28 +1,27 @@
 @use "../global";
 @use "../utils/mixins" as mxn;
 
-
 .scrolltop {
-    position: fixed;
-    bottom: 100px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    background: #f58a07 url("../../images/home/bactop.png") no-repeat;
-    background-size: contain;
-    background-position: center;
-    cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0 0 5px 5px rgb(39, 39, 39);
-    z-index: 100000;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s;
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: #f58a07 url("../../images/home/bactop.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgb(39, 39, 39);
+  z-index: 100000;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
 }
 .scrolltop.active {
-    bottom: 40px;
-    visibility: visible;
-    opacity: 1;
+  bottom: 40px;
+  visibility: visible;
+  opacity: 1;
 }
 
 .home {
@@ -130,7 +129,7 @@
             content: "→";
             font-size: 25px;
             font-weight: 800;
-            transition: .3s;
+            transition: 0.3s;
           }
           &:hover::after {
             padding-left: 20px;
@@ -138,12 +137,11 @@
             font-size: 40px;
             font-weight: 900;
           }
-          }
         }
       }
     }
   }
-
+}
 
 .solution {
   padding-top: 96px;
@@ -323,7 +321,7 @@
       position: absolute;
       top: -16px;
       right: -20.61px;
-      @media (max-width: 550px){
+      @media (max-width: 550px) {
         top: 0;
         right: 0;
       }
@@ -417,7 +415,6 @@
 
 .energy {
   background: #f58a07;
-  margin-bottom: 100px;
   .energy__wrapper {
     display: flex;
     @media (max-width: 1350px) {
@@ -457,7 +454,7 @@
         line-height: 106.5%; /* 17.04px */
         text-transform: capitalize;
         border: 1px solid #fff;
-        transition: .3s;
+        transition: 0.3s;
         &:hover {
           border: 1px solid #fff;
           background: transparent;
@@ -468,3 +465,87 @@
   }
 }
 
+.dream {
+  .dream__wrapper {
+    display: flex;
+    gap: 110px;
+    @media (max-width: 1000px) {
+      flex-direction: column;
+    }
+    .dream__aside {
+      padding-top: 205px;
+      padding-bottom: 205px;
+      h3 {
+        @include mxn.h3-title;
+      }
+      p {
+        padding-top: 24px;
+        padding-bottom: 40px;
+        @include mxn.p-18;
+      }
+      .dream__profile {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        .dream__profile-intro {
+          h5 {
+            color: #063255;
+            font-family: "Poppins";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          h6 {
+            color: #f58a07;
+            font-family: "Poppins";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .dream__bside {
+      padding: 128px 0;
+      .dream__bside__img {
+        img {
+          @media (max-width: 900px) {
+            width: 100%;
+          }
+        }
+      }
+      .btn-modal {
+        position: relative;
+        top: -80px;
+        left: 80px;
+      }
+    }
+  }
+}
+
+.btn-primary {
+  padding: 17px;
+  background: transparent;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 101.8%; /* 18.324px */
+  text-transform: capitalize;
+  &::before {
+    padding: 17px;
+    margin-right: 34px;
+    content: "▶";
+    color: #f58a07;
+    border-radius: 30px;
+    background: #fff;
+  }
+  &:hover {
+    background: transparent;
+    border: none;
+  }
+}
