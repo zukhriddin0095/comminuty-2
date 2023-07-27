@@ -261,10 +261,10 @@
   .features__container {
     flex-direction: column;
     text-align: center;
-    .features_Bside{
-    ul{
-      list-style-type:none;
-    }
+    .features_Bside {
+      ul {
+        list-style-type: none;
+      }
     }
     .features_bside {
       // margin-top: 40px;
@@ -342,11 +342,12 @@
     margin-top: 60px;
     flex-direction: column;
     text-align: center;
-    .working__aside{
-      h2, p{
+    .working__aside {
+      h2,
+      p {
         margin-left: auto;
         margin-right: auto;
-        .working__bottom{
+        .working__bottom {
           justify-content: center;
         }
       }

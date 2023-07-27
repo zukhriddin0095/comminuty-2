@@ -96,7 +96,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(39, 49, 39, 0.93);
+    background-color: #5f656acf;
     transition: 0.5s;
     #navbar-close {
       position: absolute;
@@ -117,18 +117,16 @@
       padding: 30px 112px;
       display: flex;
       flex-direction: column;
-      background: #7c7c7c;
+      background: #dceaf5d1;
       // justify-content: center;
       gap: 35px;
-      border-top: 2px solid #5c6166;
+      border-top: 2px solid #706e6e;
       border-bottom: 2px solid #5c6166;
       li {
         padding-left: 5px;
         padding-bottom: 5px;
         border-bottom: 3px solid #5c6166;
-        &:hover {
-          
-        }
+        
         a {
           @include mxn.h5-title;
           font-size: 20px;
@@ -143,6 +141,7 @@
   #navbar-open {
     border: none;
     background: transparent;
+    z-index: 100;
     i{
       font-size: 30px;
       &:active {
