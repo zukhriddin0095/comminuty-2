@@ -351,8 +351,6 @@ input:focus {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-<<<<<<< HEAD
-=======
 }
 
 /* important */
@@ -472,5 +470,4 @@ input:focus {
   color: var(--text-bold);
   margin-top: 40px;
   margin-bottom: 24px;
->>>>>>> 1d1f347d98a1fea035b4bae36bf6d1042788dd34
 }
