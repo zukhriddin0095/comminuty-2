@@ -1,4 +1,6 @@
 @use "../global";
+@use "../layout/footer";
+@use "../pages/home.scss";
 
 a {
   text-decoration: none !important;

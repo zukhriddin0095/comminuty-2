@@ -14,8 +14,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="scrolltop" onclick="scrollToTop();"><a href="#"></a></div>
     <header class="header">
       <div class="container">
         <nav class="header__navbar">
@@ -58,10 +60,10 @@
     </header>
 
     <main>
-      <section class="home">
+      <section class="home" data-aos="fade-down">
         <div class="container">
           <div class="home__wrapper">
-            <div class="home__aside">
+            <div class="home__aside" data-aos="fade-down">
               <h3>Prosper with our bespoke solutions</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -90,7 +92,7 @@
                 /></a>
               </div>
             </div>
-            <div class="home__bside">
+            <div class="home__bside" data-aos="fade-down">
               <img src="./images/home/index-page.png" alt="" />
             </div>
           </div>
@@ -99,42 +101,54 @@
 
       <section class="sectors">
         <div class="container">
-          <div class="sectors__wrapper">
+          <div class="sectors__wrapper" data-aos="fade-down">
             <h3>We help more than 1500 companies from all sectors</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus
               commodo suscipit tellus et pellentesque.
             </p>
-            <div class="sectors__cards">
-              <div class="sectors__card">
-                <img src="./images/home/sectors-card (1).png" alt="card" />
-                <h5>Business strategy</h5>
+            <div class="sectors__cards" data-aos="fade-down">
+              <div class="sectors__card" data-aos="fade-down">
+                <img
+                  data-aos="fade-down"
+                  src="./images/home/sectors-card (1).png"
+                  alt="card"
+                />
+                <h5 data-aos="fade-down">Business strategy</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Curabitur sit amet eros blandit, hendrerit elit et,
                 </p>
-                <a href="">Learn More</a>
+                <a data-aos="fade-down" href="">Learn More</a>
               </div>
 
-              <div class="sectors__card">
-                <img src="./images/home/sectors-card (2).png" alt="card" />
-                <h5>Digitalization</h5>
+              <div class="sectors__card" data-aos="fade-down">
+                <img
+                  data-aos="fade-down"
+                  src="./images/home/sectors-card (2).png"
+                  alt="card"
+                />
+                <h5 data-aos="fade-down">Digitalization</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Curabitur sit amet eros blandit, hendrerit elit et,
                 </p>
-                <a href="">Learn More</a>
+                <a data-aos="fade-down" href="">Learn More</a>
               </div>
 
-              <div class="sectors__card">
-                <img src="./images/home/sectors-card (3).png" alt="card" />
-                <h5>Risk assessment</h5>
+              <div class="sectors__card" data-aos="fade-down">
+                <img
+                  data-aos="fade-down"
+                  src="./images/home/sectors-card (3).png"
+                  alt="card"
+                />
+                <h5 data-aos="fade-down">Risk assessment</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Curabitur sit amet eros blandit, hendrerit elit et,
                 </p>
-                <a href="">Learn More</a>
+                <a data-aos="fade-down" href="">Learn More</a>
               </div>
             </div>
           </div>
@@ -142,40 +156,52 @@
       </section>
       <section class="solution">
         <div class="container">
-          <div class="solution__wrapper">
-            <div class="solution__box">
-              <h5>
+          <div class="solution__wrapper" data-aos="fade-down">
+            <div class="solution__box" data-aos="fade-down">
+              <h5 data-aos="fade-down">
                 We are building software solution that solves your business
                 challenges
               </h5>
-              <p>
+              <p data-aos="fade-down">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur sit amet eros blandit, hendrerit elit et, mattis
                 purus. Vivamus commodo suscipit tellus et pellentesque.
               </p>
             </div>
-            <div class="solution__cards">
-              <div class="solution__card">
-                <img src="./images/home/solution-icon (1).png" alt="icon" />
-                <h5>Invoicing</h5>
+            <div class="solution__cards" data-aos="fade-down">
+              <div class="solution__card" data-aos="fade-down">
+                <img
+                  data-aos="fade-down"
+                  src="./images/home/solution-icon (1).png"
+                  alt="icon"
+                />
+                <h5 data-aos="fade-down">Invoicing</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Curabitur sit amet eros blandit, hendrerit elit et,
                 </p>
               </div>
 
-              <div class="solution__card">
-                <img src="./images/home/solution-icon (2).png" alt="icon" />
-                <h5>Support</h5>
+              <div class="solution__card" data-aos="fade-down">
+                <img
+                  data-aos="fade-down"
+                  src="./images/home/solution-icon (2).png"
+                  alt="icon"
+                />
+                <h5 data-aos="fade-down">Support</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Curabitur sit amet eros blandit, hendrerit elit et,
                 </p>
               </div>
 
-              <div class="solution__card">
-                <img src="./images/home/solution-icon (3).png" alt="icon" />
-                <h5>Surveying</h5>
+              <div data-aos="fade-down" class="solution__card">
+                <img
+                  data-aos="fade-down"
+                  src="./images/home/solution-icon (3).png"
+                  alt="icon"
+                />
+                <h5 data-aos="fade-down">Surveying</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Curabitur sit amet eros blandit, hendrerit elit et,
@@ -188,33 +214,370 @@
 
       <section class="exprience">
         <div class="container">
-          <div class="exprience__wrapper">
-            <div class="exprience__aside">
-              <h3>The energy of a start-up combined with 30 years of experience.</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.</p>
-              <div class="exprience__aside__box">
-                <div class="exprience__intro">
-                  <h3>15+</h3>
-                  <h5>Awards received</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit amet eros elit et.</p>
+          <div class="exprience__wrapper" data-aos="fade-down">
+            <div class="exprience__aside" data-aos="fade-down">
+              <h3 data-aos="fade-down">
+                The energy of a start-up combined with 30 years of experience.
+              </h3>
+              <p data-aos="fade-down">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et, mattis
+                purus. Vivamus commodo suscipit tellus et pellentesque.
+              </p>
+              <div data-aos="fade-down" class="exprience__aside__box">
+                <div data-aos="fade-down" class="exprience__intro">
+                  <h3 data-aos="fade-down">15+</h3>
+                  <h5 data-aos="fade-down">Awards received</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur
+                    sit amet eros elit et.
+                  </p>
                 </div>
-                <div class="exprience__intro">
-                  <h3>15+</h3>
-                  <h5>Awards received</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit amet eros elit et.</p>
+                <div data-aos="fade-down" class="exprience__intro">
+                  <h3 data-aos="fade-down">15+</h3>
+                  <h5 data-aos="fade-down">Awards received</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur
+                    sit amet eros elit et.
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="exprience__bside">
-              <img src="./images/home/expriense.png" alt="">
+            <div
+              data-aos="fade-down"
+              class="exprience__bside"
+              data-aos="zoom-out-left"
+            >
+              <img
+                data-aos="fade-down"
+                src="./images/home/expriense.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </section>
+      <section class="strategy" data-aos="fade-down">
+        <div class="container">
+          <div class="strategy__wrapper" data-aos="fade-down">
+            <img
+              data-aos="fade-down"
+              class="rabbon"
+              src="./images/home/Ribbon.svg"
+              alt="rabbon"
+            />
+            <ul
+              data-aos="fade-down"
+              class="nav nav-pills mb-3"
+              id="pills-tab"
+              role="tablist"
+            >
+              <li data-aos="fade-down" class="nav-item" role="presentation">
+                <button
+                  data-aos="fade-down"
+                  class="nav-link active"
+                  id="pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  Business strategy
+                </button>
+              </li>
+              <li data-aos="fade-down" class="nav-item" role="presentation">
+                <button
+                  data-aos="fade-down"
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  Digitalization
+                </button>
+              </li>
+              <li data-aos="fade-down" class="nav-item" role="presentation">
+                <button
+                  data-aos="fade-down"
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                >
+                  Risk assessment
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+                tabindex="0"
+              >
+                <div class="nav__tabs">
+                  <div data-aos="fade-down" class="nav__tabs__aside">
+                    <h3 data-aos="fade-down">
+                      Helping clients with research and strategy for their
+                      business
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Curabitur sit amet eros blandit, hendrerit elit et, mattis
+                      purus. Vivamus commodo suscipit tellus et pellentesque.
+                    </p>
+                    <p>
+                      Mattis purus. Vivamus commodo suscipit tellus et pellent.
+                      Curabitur sit amet eros blan esque.
+                    </p>
+                    <a href="">See all services</a>
+                  </div>
+                  <div data-aos="fade-down" class="nav__tabs__bside">
+                    <img
+                      data-aos="fade-down"
+                      src="./images/home/strategy.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+                tabindex="0"
+              >
+                <div data-aos="fade-down" class="nav__tabs">
+                  <div data-aos="fade-down" class="nav__tabs__bside">
+                    <img
+                      data-aos="fade-down"
+                      src="./images/home/strategy.png"
+                      alt=""
+                    />
+                  </div>
+                  <div data-aos="fade-down" class="nav__tabs__aside">
+                    <h3 data-aos="fade-down">
+                      Helping clients with research and strategy for their
+                      business
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Curabitur sit amet eros blandit, hendrerit elit et, mattis
+                      purus. Vivamus commodo suscipit tellus et pellentesque.
+                    </p>
+                    <p>
+                      Mattis purus. Vivamus commodo suscipit tellus et pellent.
+                      Curabitur sit amet eros blan esque.
+                    </p>
+                    <a data-aos="fade-down" href="">See all services</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+                tabindex="0"
+              >
+                <div data-aos="fade-down" class="nav__tabs">
+                  <div data-aos="fade-down" class="nav__tabs__aside">
+                    <h3 data-aos="fade-down">
+                      Helping clients with research and strategy for their
+                      business
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Curabitur sit amet eros blandit, hendrerit elit et, mattis
+                      purus. Vivamus commodo suscipit tellus et pellentesque.
+                    </p>
+                    <p>
+                      Mattis purus. Vivamus commodo suscipit tellus et pellent.
+                      Curabitur sit amet eros blan esque.
+                    </p>
+                    <a data-aos="fade-down" href="">See all services</a>
+                  </div>
+                  <div data-aos="fade-down" class="nav__tabs__bside">
+                    <img
+                      data-aos="fade-down"
+                      src="./images/home/strategy.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="energy" data-aos="fade-down">
+        <div class="container">
+          <div class="energy__wrapper" data-aos="fade-down">
+            <div class="energy__aside" data-aos="fade-down">
+              <img
+                data-aos="fade-down"
+                src="./images/home/energy.png"
+                alt="energy"
+              />
+            </div>
+            <div class="energy__bside" data-aos="fade-down">
+              <h3 data-aos="fade-down">
+                Energy of a start-up combined with 30 years of experience.
+              </h3>
+              <a data-aos="fade-down" href="">See Job Vacancies</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="dream">
+        <div class="container">
+          <div class="dream__wrapper">
+            <div class="dream__aside" data-aos="fade-down">
+              <h3 data-aos="fade-down">Finsweet was a dream to work with</h3>
+              <p data-aos="fade-down">
+                Maecenas efficitur scelerisque lorem, et varius lacus tincidunt
+                vel. Pellentesque a arcu vitae diam dapibus mattis vel vel orci.
+                Vivamus eleifend nec felis vel auctor.
+              </p>
+              <div class="dream__profile" data-aos="fade-down">
+                <img src="./images/home/dream (1).png" alt="foon" />
+                <div class="dream__profile-intro">
+                  <h5>Chikelu Neo</h5>
+                  <h6>CEO at MazeAI</h6>
+                </div>
+              </div>
+            </div>
+            <div class="dream__bside" data-aos="fade-down">
+              <div class="dream__bside__img" data-aos="fade-down">
+                <img src="./images/home/dream (2).png" alt="" />
+              </div>
+
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary btn-modal"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                play Video
+              </button>
+
+              
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <secton class="news">
+        <div class="container">
+          <div class="news__wrapper">
+            <h3 data-aos="fade-down">Latest Blog & News</h3>
+            <div data-aos="fade-down" class="news__cards">
+              <div class="news__card" data-aos="fade-down">
+                <img src="./images/home/news-card (1).png" alt="" />
+                <div class="news__card__intro">
+                  <h5>Why you have to digitalize in 2021</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur sit amet eros blandit, hendrerit elit et.
+                  </p>
+                  <a href="">Learn More</a>
+                </div>
+              </div>
+              <div class="news__card" data-aos="fade-down">
+                <img src="./images/home/news-card (2).png" alt="" />
+                <div class="news__card__intro">
+                  <h5>Our internal process and longerm vision</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur sit amet eros blandit, hendrerit elit et.
+                  </p>
+                  <a href="">Learn More</a>
+                </div>
+              </div>
+              <div class="news__card" data-aos="fade-down">
+                <img src="./images/home/news-card (3).png" alt="" />
+                <div class="news__card__intro">
+                  <h5>Helping the next generation of leaders</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur sit amet eros blandit, hendrerit elit et.
+                  </p>
+                  <a href="">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </secton>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper" data-aos="fade-down">
+          <div class="footer__left" data-aos="fade-down">
+            <img src="./images/home/footer__logo.svg" alt="logo" />
 
+            <h3 data-aos="fade-down">Bespoke software solutions</h3>
+            <div class="footer__social" data-aos="fade-down">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+
+          <div class="footer__pages" data-aos="fade-down">
+            <h5>Company</h5>
+            <a href="./About-us.html">About us</a>
+            <a href="./careers.html">careers</a>
+            <a href="./services.html">Services</a>
+            <a href="./blog.html">Blog</a>
+          </div>
+
+          <div class="footer__conect" data-aos="fade-down">
+            <h5>Connect</h5>
+            <a href="mailto:hi@finsweet.com">hi@finsweet.com</a>
+            <a href="tel:+(123) 456-7890">+(123) 456-7890</a>
+          </div>
+
+          <div class="footer__newslatter" data-aos="fade-down">
+            <h5>Join Newsletter</h5>
+            <div class="footer__conect__form">
+              <input type="email" placeholder="Type email here">
+              <a href="">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer__end" data-aos="fade-down">
+          <div class="footer__aside" data-aos="fade-down">
+            <h5>© All rights reserved – Finsweet</h5>
+          </div>
+          <div class="footer__bside" data-aos="fade-down">
+            <a href="./Privacy-policy.html">Privacy Policy</a>
+             <a href="">Terms & Conditions</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
