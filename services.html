@@ -1,19 +1,223 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/services.min.css">
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/services.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__navbar">
+          <div class="header__logo">
+            <a href="./index.html"
+              ><img src="./images/home/header-logo.svg" alt="logo"
+            /></a>
+          </div>
 
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/main.js"></script>
-</body>
+          <div class="nav__link">
+            <ul>
+              <li><a href="./About-us.html">About Us</a></li>
+              <li><a href="./careers.html">careers</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="./blog.html">blog</a></li>
+              <li><a href="./Contact.us.html">contact-us</a></li>
+            </ul>
+            <a class="nav__btn" href="./blog-inner.html">Clone project</a>
+          </div>
+
+          <div class="header__nav__toggle d-lg-none">
+            <div id="navbar-responsive">
+              <button id="navbar-close">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+              <ul>
+                <li><a href="./About-us.html">About Us</a></li>
+                <li><a href="./careers.html">careers</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./blog.html">blog</a></li>
+                <li><a href="./Contact.us.html">contact-us</a></li>
+              </ul>
+            </div>
+            <button id="navbar-open">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="solution" data-aos="fade-right">
+        <div class="container solution__container">
+          <div class="solution-aside">
+            <h1>We serve clients with ground breaking solutions</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              leo odio, sagittis quis ornare quis.
+            </p>
+            <button>Work With Us</button>
+          </div>
+          <div class="solution-bside">
+            <div class="solution-bside-img">
+              <img src="./images/services/Image.png" alt="" />
+            </div>
+            <div class="solution-bside-content"></div>
+          </div>
+          <div class="circle">
+            <img src="./images/services/Circle.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="container">
+          <div class="conatiner features__container">
+            <div class="features-aside">
+              <div class="features__img">
+                <img src="./images/services/Image (1).png" alt="" />
+              </div>
+              <div class="features-aside-content"></div>
+            </div>
+
+            <div class="features_bside">
+              <h2>Business strategy</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                leo odio, sagittis quis ornare quis.met, consectetur adipiscing
+                elit. Aliquam leo odio, sagittis quis ornare quis.
+              </p>
+              <ul>
+                <li>Cost strategy</li>
+                <li>Differentiated product or service strategy</li>
+                <li>Focus on a niche strategy</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="features__section">
+            <div class="features__section-aside">
+              <h2>Digitalization</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                leo odio, sagittis quis ornare quis.met, consectetur adipiscing
+                elit. Aliquam leo odio, sagittis quis ornare quis. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Aliquam leo odio,
+                sagittis.
+              </p>
+            </div>
+            <div class="features__section-bside">
+              <div class="section_img">
+                <img src="./images/services/Image (2).png" alt="" />
+              </div>
+              <div class="section-bside-content"></div>
+            </div>
+          </div>
+
+          <div class="features__section">
+            <div class="features__section-bside">
+              <div class="section_img">
+                <img src="./images/services/Image (3).png" alt="" />
+              </div>
+              <div class="section-bside-content"></div>
+            </div>
+            <div class="features__section-aside">
+              <h2>Risk assessment</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                leo odio, sagittis quis ornare quis.met, consectetur adipiscing
+                elit. Aliquam leo odio, sagittis quis ornare quis. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Aliquam leo odio,
+                sagittis.
+              </p>
+              <ul>
+                <li>Cost strategy</li>
+                <li>Differentiated product or service strategy</li>
+                <li>Focus on a niche strategy</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="features__section">
+            <div class="features__section-aside">
+              <h2>Artificial intelligence</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                leo odio, sagittis quis ornare quis.met, consectetur adipiscing
+                elit. Aliquam leo odio, sagittis quis ornare quis. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Aliquam leo odio,
+                sagittis.
+              </p>
+            </div>
+            <div class="features__section-bside">
+              <div class="section_img">
+                <img src="./images/services/Image (4).png" alt="" />
+              </div>
+              <div class="section-bside-content"></div>
+            </div>
+          </div>
+          <div class="features__section">
+            <div class="features__section-bside">
+              <div class="section_img">
+                <img src="./images/services/Image (5).png" alt="" />
+              </div>
+              <div class="section-bside-content"></div>
+            </div>
+            <div class="features__section-aside">
+              <h2>Smart Contracts</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                leo odio, sagittis quis ornare quis.met, consectetur adipiscing
+                elit. Aliquam leo odio, sagittis quis ornare quis. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Aliquam leo odio,
+                sagittis.
+              </p>
+              <ul>
+                <li>Cost strategy</li>
+                <li>Differentiated product or service strategy</li>
+                <li>Focus on a niche strategy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="working">
+        <div class="container working__container">
+          <div class="working__aside">
+            <h2>Finsweet was a dream to work with</h2>
+            <p>
+              Maecenas efficitur scelerisque lorem, et varius lacus tincidunt
+              vel. Pellentesque a arcu vitae diam dapibus mattis vel vel orci.
+              Vivamus eleifend nec felis vel auctor.
+            </p>
+            <div class="working__bottom">
+              <div class="working__img">
+                <img src="./images/services/Image (7).png" alt="">
+              </div>
+              <div class="working__text">
+                <a href="#"><h4>Chikelu Neo</h4></a>
+               <a href="#"> <h3>CEO at MazeAI</h3></a>
+              </div>
+            </div>
+          </div>
+          <div class="working__bside">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Eab73YK8Pwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  </body>
 </html>
